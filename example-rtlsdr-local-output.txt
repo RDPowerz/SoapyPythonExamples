@@ -1,0 +1,91 @@
+Devices:
+Found Rafael Micro R820T tuner
+{'default_input': 'True',
+ 'default_output': 'True',
+ 'device_id': '0',
+ 'driver': 'audio',
+ 'label': 'hw:HDA Intel PCH,0'}
+{'default_input': 'False',
+ 'default_output': 'False',
+ 'device_id': '13',
+ 'driver': 'audio',
+ 'label': 'default'}
+{'driver': 'remote',
+ 'label': 'AirSpy HF+ [3652eb5dacde39f8]',
+ 'remote': 'tcp://192.168.1.22:55132',
+ 'remote:driver': 'airspyhf',
+ 'serial': '3652eb5dacde39f8'}
+{'driver': 'rtlsdr',
+ 'label': 'Generic RTL2832U OEM :: 00000001',
+ 'manufacturer': 'Realtek',
+ 'product': 'RTL2838UHIDIR',
+ 'serial': '00000001',
+ 'tuner': 'Rafael Micro R820T'}
+
+Instantiate a device using driver "rtlsdr"...
+[INFO] Opening Generic RTL2832U OEM :: 00000001...
+Found Rafael Micro R820T tuner
+Device instantiated...
+
+Antennas:
+'RX'
+
+Gains:
+'TUNER'
+
+Frequency Ranges:
+  23999000.0, 1764001000.0
+
+SampleRates:
+250000.0
+1024000.0
+1536000.0
+1792000.0
+1920000.0
+2048000.0
+2160000.0
+2560000.0
+2880000.0
+3200000.0
+
+Set sample rate: 3200000.0
+[R82XX] PLL not locked!
+Get sample rate: 3200000.0
+
+Set frequency: 894000000.0
+Get frequency: 894000000.0
+
+Setup Stream:
+[INFO] Using format CF32.
+
+Activate Stream:
+
+Create Buffers:
+
+Receive Samples:
+t:   0.000000 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.000320 flags: 0x24 n: 1024 buff0: (0.004687488-0.003125012j)
+t:   0.000640 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.000960 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.001280 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.001600 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.001920 flags: 0x24 n: 1024 buff0: (0.004687488-0.003125012j)
+t:   0.002240 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.002560 flags: 0x24 n: 1024 buff0: (-0.003125012+0.004687488j)
+t:   0.002880 flags: 0x24 n: 1024 buff0: (0.004687488+0.004687488j)
+t:   0.003200 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.003520 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.003840 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.004160 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.004480 flags: 0x24 n: 1024 buff0: (0.004687488-0.003125012j)
+t:   0.004800 flags: 0x24 n: 1024 buff0: (-0.003125012+0.004687488j)
+t:   0.005120 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.005440 flags: 0x24 n: 1024 buff0: (0.004687488-0.003125012j)
+t:   0.005760 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.006080 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.006400 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.006720 flags: 0x24 n: 1024 buff0: (0.004687488-0.003125012j)
+t:   0.007040 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.007360 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+t:   0.007680 flags: 0x24 n: 1024 buff0: (-0.003125012-0.003125012j)
+
