@@ -1,0 +1,99 @@
+[INFO] Opening HackRF One #0 75b068dc3177b007...
+
+Devices:
+{'default_input': 'True',
+ 'default_output': 'True',
+ 'device_id': '0',
+ 'driver': 'audio',
+ 'label': 'hw:HDA Intel PCH,0'}
+{'default_input': 'False',
+ 'default_output': 'False',
+ 'device_id': '13',
+ 'driver': 'audio',
+ 'label': 'default'}
+{'device': 'HackRF One',
+ 'driver': 'hackrf',
+ 'label': 'HackRF One #0 75b068dc3177b007',
+ 'part_id': 'a000cb3c006e4f5a',
+ 'serial': '000000000000000075b068dc3177b007',
+ 'version': '2018.01.1'}
+{'driver': 'remote',
+ 'label': 'AirSpy HF+ [3652eb5dacde39f8]',
+ 'remote': 'tcp://192.168.1.22:55132',
+ 'remote:driver': 'airspyhf',
+ 'serial': '3652eb5dacde39f8'}
+
+Instantiate a device using driver "hackrf"...
+Device instantiated...
+
+Antennas:
+'TX/RX'
+
+Gains:
+'LNA'
+'AMP'
+'VGA'
+
+Frequency Ranges:
+         0.0, 7250000000.0
+
+SampleRates:
+1000000.0
+2000000.0
+3000000.0
+4000000.0
+5000000.0
+6000000.0
+7000000.0
+8000000.0
+9000000.0
+10000000.0
+11000000.0
+12000000.0
+13000000.0
+14000000.0
+15000000.0
+16000000.0
+17000000.0
+18000000.0
+19000000.0
+20000000.0
+
+Set sample rate: 20000000.0
+Get sample rate: 20000000.0
+
+Set frequency: 3625000000.0
+Get frequency: 3625000000.0
+
+Setup Stream:
+
+Activate Stream:
+
+Create Buffers:
+
+Receive Samples:
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.8425197-0.984252j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.78740156+0.12598425j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.5984252-0.8582677j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.14173229+0.88188976j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.38582677+0.18897638j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.33070865+0.61417323j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.81889766-0.52755904j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.9212598+0.12598425j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: 0.007874016j
+t:   0.000000 flags: 0x00 n: 1024 buff0: 0j
+t:   0.000000 flags: 0x00 n: 1024 buff0: 0.015748031j
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: 0.007874016j
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: -0.007874016j
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: 0j
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016+0j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (0.007874016-0.007874016j)
+t:   0.000000 flags: 0x00 n: 1024 buff0: (-0.007874016-0.007874016j)
